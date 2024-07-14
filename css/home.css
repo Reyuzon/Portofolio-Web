@@ -1,0 +1,57 @@
+#home {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#portofolio>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#portofolio>div>div {
+    width: 30%;
+    margin: 0.25rem;
+}
+
+#portofolio p {
+    padding: 0.25rem;
+    text-align: center;
+}
+
+#portofolio a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+
+form label {
+    display: block;
+    padding: 0.5rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.5rem 2rem;
+    background-color: var(--aksen);
+    border-radius: 1rem;
+    border: 0;
+    color: var(--bg);
+}
+
+@media screen and (max-width: 800px) {
+    #portofolio>div {
+        display: block;
+    }
+    #portofolio>div>div {
+        width: 100%;
+    }  
+}

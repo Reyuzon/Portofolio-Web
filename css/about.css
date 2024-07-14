@@ -1,0 +1,30 @@
+#profil {
+    display: flex;
+}
+#profil img {
+    width: 20%;
+}
+
+#profil div {
+    margin-left: 2rem;
+}
+
+#bio ul li {
+    list-style-type: none;
+    padding: 0.25rem;
+}
+
+#bio span {
+    color: var(--aksen);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 780px) {
+    #profil {
+    display: block;
+    }
+    #profil img {
+        width: 100%;
+    }
+   
+}
